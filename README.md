@@ -1,23 +1,23 @@
 # Youtube_Data_Harvesting
 
-Project - 1 : "YouTube Data Harvesting and Warehousing"
+# Project - 1 : "YouTube Data Harvesting and Warehousing"
 
-Introduction
+# Introduction
 
 The primary objective of this system is to collect comprehensive data from YouTube, including channel information, video details, comments, and playlist information. This data is then stored within a MySQL database for further analysis and insights generation.
 
-Key Technologies and Skills
+# Key Technologies and Skills:
 
-YouTube Data API
-Python
-MySQL
-Streamlit
-Data Processing and Analysis
-Matplotlib and Seaborn
+1) YouTube Data API
+2) Python
+3) MySQL
+4) Streamlit
+5) Data Processing and Analysis
+6) Matplotlib and Seaborn
 
-Installation:
+# Installation:
 
-To run this project, you need to install the following packages:
+## To run this project, you need to install the following packages:
 
 pip install mysql-connector-python
 pip install pandas
@@ -27,7 +27,7 @@ pip install streamlit
 pip install matplotlib
 pip install seaborn
 
-Features 
+# Features:
 
  YouTube Data API to fetch various data such as channel details, video information, comments, and playlist details
 
@@ -43,23 +43,23 @@ Features
 
  This modular design enhances code readability, maintainability, and reusability.
 
-YouTube Data Retrieval:
+# YouTube Data Retrieval:
 
 The script interacts with the YouTube Data API to fetch various data such as channel details, video information, comments, and playlist details.
 
-MySQL Database Integration:
+# MySQL Database Integration:
 
 It connects to a MySQL database to store the retrieved YouTube data. Tables are created as needed for storing channel information, video details, comments, and playlist details.
 
-Streamlit:
+# Streamlit:
 
 The script utilizes Streamlit to create an interactive web application. Users can input a YouTube channel ID to retrieve and display comprehensive details about the channel, including videos, comments, and playlists.
 
-Data Processing and Storage
+# Data Processing and Storage
 
 The retrieved data is processed and stored in the MySQL database. Functions are defined to insert channel information, video details, comment data, and playlist details into their respective tables in the database.
 
-Data Analysis and Visualization
+# Data Analysis and Visualizationions
 
 The script provides functionality to perform various analyses on the YouTube data stored in the database. Users can select from predefined questions or queries, such as finding the most-viewed videos, channels with the highest number of videos, total likes and dislikes for each video, and more. The results of these analyses are displayed using Matplotlib and Seaborn for data visualization.
 
@@ -67,20 +67,16 @@ The script provides functionality to perform various analyses on the YouTube dat
 
 • Video Analysis Video analysis focuses on views, likes, comments, and durations, enabling both an overall channel and specific channel perspectives.
 
-Modular Design
+# Modular Design
 
 The script is modularized into functions, each responsible for specific tasks such as fetching data from the YouTube API, interacting with the MySQL database, performing analyses, and generating visualizations. This modular design enhances code readability, maintainability, and reusability.
 
-Navigation and Interaction
+# Navigation and Interaction
 
-The Streamlit app provides a navigation sidebar where users can select different options such as viewing channel details, exploring predefined questions, and navigating back to the home page. The interface dynamically updates based on user interactions and selections.
+The Streamlit app provides a navigation sidebar where users can select different options such as Home, Add data to MySQL,  viewing tables, Queries, and navigating back to the home page. The interface dynamically updates based on user interactions and selections.
 
-Contributing:
-
-Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request.
-
-Contact
+# Contact
 
 📧 Email: hariyogeshram882@gmail.com
 
-For any further questions or inquiries, feel free to reach out. We are happy to assist you with any queries.
+# For any further questions or inquiries, feel free to reach out. We are happy to assist you with any queries.
