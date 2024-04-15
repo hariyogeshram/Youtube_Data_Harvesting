@@ -59,7 +59,7 @@ The script utilizes Streamlit to create an interactive web application. Users ca
 
 The retrieved data is processed and stored in the MySQL database. Functions are defined to insert channel information, video details, comment data, and playlist details into their respective tables in the database.
 
-# Data Analysis and Visualizationions
+# Data Analysis and Visualizations
 
 The script provides functionality to perform various analyses on the YouTube data stored in the database. Users can select from predefined questions or queries, such as finding the most-viewed videos, channels with the highest number of videos, total likes and dislikes for each video, and more. The results of these analyses are displayed using Matplotlib and Seaborn for data visualization.
 
