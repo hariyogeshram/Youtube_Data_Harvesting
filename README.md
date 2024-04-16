@@ -19,13 +19,13 @@ The primary objective of this system is to collect comprehensive data from YouTu
 
 ## To run this project, you need to install the following packages:
 
-pip install mysql-connector-python
-pip install pandas
-pip install google-api-python-client
-pip install isodate
-pip install streamlit
-pip install matplotlib
-pip install seaborn
+### 1) pip install mysql-connector-python
+### 2) pip install pandas
+### 3) pip install google-api-python-client
+### 4) pip install isodate
+### 5) pip install streamlit
+### 6) pip install matplotlib
+### 7) pip install seaborn
 
 # Features:
 
