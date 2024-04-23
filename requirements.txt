@@ -1,0 +1,11 @@
+mysql.connector
+os
+googleapiclient.discovery
+googleapiclient.errors
+json
+pandas
+isodate
+datetime
+streamlit
+matplotlib.pyplot
+seaborn
