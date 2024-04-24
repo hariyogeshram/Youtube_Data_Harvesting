@@ -38,9 +38,10 @@ youtube = Api()
 #                                                          MySQL Connections
 mydb=mysql.connector.connect(
     host = '127.0.0.1', 
-    user = '',   # give your username
-    password = '', # give your password
-    database = ''  # give your database name
+    port = '3306',
+    user = 'root',   # give your username
+    password = 'Sharma@45177', # give your password
+    database = 'Youtube'  # give your database name
     
 )
 
@@ -367,9 +368,10 @@ def get_channel_details(channel_id):
 # mysql connection
 connection =mysql.connector.connect(
     host = '127.0.0.1', 
-    user = '',   # give your username
-    password = '', # give your password
-    database = ''  # give your database name 
+    port = '3306',
+    user = 'root',   # give your username
+    password = 'Sharma@45177', # give your password
+    database = 'Youtube'  # give your database name 
     
 )
 
